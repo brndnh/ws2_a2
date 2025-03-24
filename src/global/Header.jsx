@@ -1,5 +1,6 @@
+import { NavLink } from 'react-router';
 import "./Header.css";
-import logo from '../assets/logo.png'
+import logo from '../assets/logo.png';
 
 function Header() {
     return (
@@ -8,16 +9,44 @@ function Header() {
                 <div className="grid">
 
                     <div className="col-3">
-                        <img class="logo" src={logo} alt="" />
+                        <img className="logo" src={logo} alt="Logo" />
                     </div>
 
                     <div className="col-9 header-menu">
                         <nav>
                             <ul className="nav-list">
-                                <li><a href="/">home</a></li>
-                                <li><a href="/about">about</a></li>
-                                <li><a href="/blog">blog</a></li>
-                                <li><a href="/works">works</a></li>
+                                <li>
+                                    <NavLink
+                                        to="/"
+                                        className={({ isActive }) => (isActive ? 'active-link' : '')}
+                                    >
+                                        home
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink
+                                        to="/about"
+                                        className={({ isActive }) => (isActive ? 'active-link' : '')}
+                                    >
+                                        about
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink
+                                        to="/blog"
+                                        className={({ isActive }) => (isActive ? 'active-link' : '')}
+                                    >
+                                        blog
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink
+                                        to="/works"
+                                        className={({ isActive }) => (isActive ? 'active-link' : '')}
+                                    >
+                                        works
+                                    </NavLink>
+                                </li>
                             </ul>
                         </nav>
                     </div>

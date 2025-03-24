@@ -63,7 +63,7 @@ h3 {
     margin-bottom: 3vh;
 }
 
-.longDivider {
+.long-divider {
     width: 80%; 
     margin: 0 auto; 
     border: none; 
@@ -71,7 +71,7 @@ h3 {
     margin-bottom: 3vh;
 }
 
-.workFilters {
+.work-filters {
     display: flex;     
     justify-content: center; 
     height: 100%;
