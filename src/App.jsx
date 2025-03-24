@@ -2,7 +2,7 @@ import Home from "./Pages/Home"
 import About from "./Pages/About"
 import Blog from "./Pages/Blog"
 import Works from "./Pages/Works"
-import Works_cc3 from "./Pages/Works_cc3"
+import Works_cc3 from "./Pages/Works/works_cc3"
 
 import { Routes, Route } from "react-router"
 
@@ -15,7 +15,7 @@ function App() {
       <Route path="/blog" element={<Blog />}></Route>
       
       <Route path="/works" element={<Works />}></Route>
-      <Route path="/works_cc3" element={<Works_cc3 />} />
+      <Route path="/works/works_cc3" element={<Works_cc3 />} />
     </Routes>
     </>
   )

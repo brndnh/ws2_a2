@@ -1,5 +1,6 @@
 import Header from "../global/Header";
 import Footer from "../global/Footer";
+import { NavLink } from 'react-router';
 
 import firstImage from '../assets/works_cc3.png';
 import { ArrowForwardCircleOutline } from 'react-ionicons';
@@ -40,25 +41,24 @@ function Works() {
                                             “BH Cringe Compilation 3” <span className="tag">#misc</span>
                                         </h3>
                                         <p className="description">— Video Direction; Compositing, Effects</p>
-                                        <p className="year">2024</p>
-                                    </div>
-                                    <button className="view-project">
-                                        <a href=""><ArrowForwardCircleOutline color={"#000"} height="40px" width="40px" /></a>
-                                    </button>
-                                </div>
 
-                                <div className="project-card">
-                                    <div class="video-container">
-                                        <iframe
-                                            src="https://www.youtube.com/embed/0J2IJiBxSZc?si=tY4YPg7q3PPN_K5s"
-                                            title="YouTube"
-                                            frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                            allowfullscreen
-                                        ></iframe>
+                                        <div className="card-footer">
+                                            <p className="year">2024</p>
+
+                                            <button className="view-project">
+                                                <NavLink
+                                                    to="/Works/Works_cc3"
+                                                    className={({ isActive }) => (isActive ? 'active-link' : '')}
+                                                >
+                                                    <ArrowForwardCircleOutline color={"#000"} height="60px" width="60px" />
+                                                </NavLink>
+                                            </button>
+                                        </div>
                                     </div>
                                 </div>
                             </section>
+
+
                         </div>
 
                         <div className="col-3 bg-columns">

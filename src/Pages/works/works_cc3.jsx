@@ -1,8 +1,8 @@
-import Header from "../global/Header";
-import Footer from "../global/Footer";
+import Header from "../../global/Header";
+import Footer from "../../global/Footer";
 
-import firstImage from '../assets/works_cc3.png';
-import "./Works.css";
+import firstImage from '../../assets/works_cc3.png';
+import "./../Works.css";
 
 function Works() {
     return (
@@ -30,7 +30,7 @@ function Works() {
                                         title="YouTube"
                                         frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                        allowfullscreen
+                                        allowFullScreen
                                     ></iframe>
                                 </div>
                                 <div className="project-journey">
