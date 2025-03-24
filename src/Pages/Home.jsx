@@ -18,14 +18,11 @@ function Home() {
                             <section>
                                 <img class="header-image" src={homeHeaderImage} alt="" />
                                 <h1>home</h1>
-                                <br></br>
-                                <p>
-                                    Hi! I'm Branden. I go by the username taito online, but feel free to refer me by either name. I am currently studying media / web design in Vancouver, BC.
-                                </p>
-                                <br></br>
+                                
+                                <p>Hi! I'm Branden. I go by the username taito online, but feel free to refer me by either name. I am currently studying media / web design in Vancouver, BC.</p>
 
                                 <p>I have interests in motion design, front end web development, fundamentals of UI/UX design, and occasionally dabble in anime style illustration.</p>
-                                <br></br>
+                                
                                 <p>My current life motto is finding magic in the mundane. I've always spent a lot of time online, playing competitive games ranging between FPS and rhythm games which by a little more than just chance, led me to where I am now.  </p>
                             </section>
 
