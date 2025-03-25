@@ -1,6 +1,3 @@
-import Header from "../global/Header";
-import Footer from "../global/Footer";
-
 import aboutHeaderImage from "../assets/about_header.png";
 import aboutFirstImage from "../assets/about_neighbourhood.png";
 import aboutSecondImage from "../assets/about_centralpark.png";
@@ -9,15 +6,12 @@ import aboutThirdImage from "../assets/about_roundmirror.png"
 function About() {
     return (
         <>
-            <Header />
-
             <main className="about">
                 <div className="container">
                     <div className="grid">
-                        <div className="col-2 bg-columns">
-                        </div>
+                        <div className="col-0-sm col-1-md col-2-lg bg-columns"></div>
 
-                        <div className="col-8">
+                        <div className="col-12 col-10-md col-8-lg">
                             <section>
                                 <img class="header-image" src={aboutHeaderImage} alt="" />
                                 <h1>about</h1>
@@ -60,8 +54,6 @@ function About() {
                     </div>
                 </div>
             </main>
-
-            <Footer />
         </>
     );
 }

@@ -1,15 +1,12 @@
-import Header from "../global/Header";
-import Footer from "../global/Footer";
-
-function Blog() {
+// WIP page. 
+function Blog() { 
     return (
         <>
-            <Header />
             <main>
                 <div className="container grid">
-                    <div className="col-2 bg-columns"></div>
+                <div className="col-0-sm col-1-md col-2-lg bg-columns"></div>
 
-                    <div className="col-8">
+                <div className="col-12 col-10-md col-8-lg">
                         <section>
                             <p>
                                 It's a Tuesday school afternoon and I'm kinda bored out of my mind, so I decided to finally hit that idea that's been bouncing around in the back of my head for quite some time.
@@ -29,11 +26,8 @@ function Blog() {
                         </section>
                     </div>
                 </div>
-                
-                <div className="col-2 bg-columns"></div>
 
             </main>
-            <Footer />
         </>
     );
 }

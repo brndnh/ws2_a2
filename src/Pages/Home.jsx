@@ -1,5 +1,3 @@
-import Header from "../global/Header";
-import Footer from "../global/Footer";
 import "./Home.css";
 
 import homeHeaderImage from '../assets/home_header.png'
@@ -7,13 +5,11 @@ import homeHeaderImage from '../assets/home_header.png'
 function Home() {
     return (
         <>
-            <Header />
             <main className="home">
                 <div className="container grid">
-                    <div className="col-2 bg-columns">
-                    </div>
+                    <div className="col-0-sm col-1-md col-2-lg bg-columns"></div>
 
-                    <div className="col-8">
+                    <div className="col-12 col-10-md col-8-lg">
                         <section>
                             <img class="header-image" src={homeHeaderImage} alt="" />
                             <h1>home</h1>
@@ -56,14 +52,10 @@ function Home() {
                                 </div>
                             </div>
                         </section>
-
                     </div>
 
-                    <div className="col-2 bg-columns">
-                    </div>
                 </div>
             </main>
-            <Footer />
         </>
     );
 }
