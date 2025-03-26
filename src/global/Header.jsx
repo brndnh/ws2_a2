@@ -8,11 +8,11 @@ function Header() {
             <div className="container">
                 <div className="grid">
 
-                    <div className="col-1">
+                    <div className="col-1-sm col-2-md col-1">
                         <img className="logo" src={logo} alt="Logo" />
                     </div>
 
-                    <div className="col-10-md col-11 header-menu">
+                    <div className="col-11-sm col-9-md col-11 header-menu">
                         <nav>
                             <ul className="nav-list">
                                 <li>
@@ -50,9 +50,6 @@ function Header() {
                             </ul>
                         </nav>
                     </div>
-
-                    <div className="col-1"></div>
-
                 </div>
             </div>
         </header>

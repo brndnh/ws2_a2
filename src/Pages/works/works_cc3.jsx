@@ -1,24 +1,22 @@
-import Header from "../../global/Header";
-import Footer from "../../global/Footer";
-
 import firstImage from '../../assets/works_cc3.png';
 import "./../Works.css";
+
+import GoBackButton from "../../components/BackButton";
 
 function Works() {
     return (
         <>
-            <Header />
             <main className="about">
                 <div className="container grid">
-                    <div className="col-2 bg-columns">
+                    <div className="col-1 col-2-lg bg-columns">
                     </div>
 
-                    <div className="col-8">
+                    <div className="col-10 col-8-lg">
                         <section>
-
                             <hr className="long-divider" />
 
                             <div>
+                            <GoBackButton />
                                 <h1 class="work-title">"BH Cringe Compilation 3"</h1>
                                 <p class="work-title-sub"><span class="highlighted"><strong>#misc</strong> | 3 min read</span></p>
                             </div>
@@ -84,6 +82,7 @@ function Works() {
                             <div className="image-container">
                                 <img src={firstImage} alt="" />
                             </div>
+                            <GoBackButton />
                         </section>
                     </div>
 
@@ -91,7 +90,6 @@ function Works() {
                     </div>
                 </div>
             </main>
-            <Footer />
         </>
     );
 }

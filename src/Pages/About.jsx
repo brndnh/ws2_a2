@@ -1,3 +1,5 @@
+import ScrollToTop from "../components/ScrollTop";
+
 import aboutHeaderImage from "../assets/about_header.png";
 import aboutFirstImage from "../assets/about_neighbourhood.png";
 import aboutSecondImage from "../assets/about_centralpark.png";
